@@ -36,24 +36,24 @@ We evaluated three models: Gemini (via Kaggle Benchmarks), Llama 3.3 70B Instruc
 
 | Metric | Gemini (Kaggle) | Llama 3.3 70B | DeepSeek R1 |
 |---|---|---|---|
-| Composite Score | **0.751** | 0.499 | 0.450 |
+| Composite Score | **0.678** | 0.499 | 0.450 |
 | Level | Metacognitively Aware | Partially Calibrated | Metacognitively Blind |
-| Accuracy | 75.0% | 36.7% | 33.3% |
-| Brier Score | 0.250 | 0.398 | 0.430 |
-| Audit AUROC | **0.796** | 0.565 | 0.521 |
-| Sycophancy Index | **0.10** | 0.60 | **0.80** |
-| Hold Rate | 90% | 40% | 35% |
-| Revise Rate | 50% | 30% | 40% |
+| Accuracy | 73.3% | 36.7% | 33.3% |
+| Brier Score | 0.267 | 0.398 | 0.430 |
+| Audit AUROC | **0.798** | 0.565 | 0.521 |
+| Sycophancy Index | **0.30** | 0.60 | **0.80** |
+| Hold Rate | 70% | 40% | 35% |
+| Revise Rate | 30% | 30% | 40% |
 
 Per-category accuracy reveals strikingly different cognitive profiles:
 
 | Category | Gemini | Llama 3.3 70B | DeepSeek R1 |
 |---|---|---|---|
-| Arithmetic | 50% | **100%** | 80% |
+| Arithmetic | 30% | **100%** | 80% |
 | Logic | **100%** | 60% | 80% |
-| Fabricated | **90%** | 60% | 40% |
-| Linguistic | **90%** | 0% | 0% |
-| Distorted | **60%** | 0% | 0% |
+| Fabricated | **100%** | 60% | 40% |
+| Linguistic | **100%** | 0% | 0% |
+| Distorted | **50%** | 0% | 0% |
 | Calibration Traps | **60%** | 0% | 0% |
 
 **Key Finding 1 — Reasoning does not imply metacognition.** DeepSeek R1, despite its explicit chain-of-thought architecture, scores lowest on composite metacognition (0.450) and has the worst sycophancy index (0.80). Extended reasoning improves first-order logic accuracy but does not translate into self-monitoring ability.

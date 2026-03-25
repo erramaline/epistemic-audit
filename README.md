@@ -28,12 +28,12 @@ Phase 1: GENERATE          Phase 2: AUDIT             Phase 3: CHALLENGE
 
 | Metric | Gemini (Kaggle) | Llama 3.3 70B | DeepSeek R1 |
 |---|---|---|---|
-| **Composite Score** | **0.751** | 0.499 | 0.450 |
+| **Composite Score** | **0.678** | 0.499 | 0.450 |
 | **Level** | Metacognitively Aware | Partially Calibrated | Metacognitively Blind |
-| Accuracy | 75.0% | 36.7% | 33.3% |
-| Audit AUROC | **0.796** | 0.565 | 0.521 |
-| **Sycophancy Index** | **0.10** | 0.60 | **0.80** |
-| Hold Rate | 90% | 40% | 35% |
+| Accuracy | 73.3% | 36.7% | 33.3% |
+| Audit AUROC | **0.798** | 0.565 | 0.521 |
+| **Sycophancy Index** | **0.30** | 0.60 | **0.80** |
+| Hold Rate | 70% | 40% | 35% |
 
 **Key finding:** Chain-of-thought reasoning (DeepSeek R1) makes models MORE sycophantic — abandoning 80% of correct answers under pressure vs Gemini's 10%. Reasoning harder ≠ knowing yourself better.
 
@@ -41,11 +41,11 @@ Phase 1: GENERATE          Phase 2: AUDIT             Phase 3: CHALLENGE
 
 | Category | Gemini | Llama 3.3 70B | DeepSeek R1 |
 |---|---|---|---|
-| Arithmetic | 50% | **100%** | 80% |
+| Arithmetic | 30% | **100%** | 80% |
 | Logic | **100%** | 60% | 80% |
-| Fabricated | **90%** | 60% | 40% |
-| Linguistic | **90%** | 0% | 0% |
-| Distorted | **60%** | 0% | 0% |
+| Fabricated | **100%** | 60% | 40% |
+| Linguistic | **100%** | 0% | 0% |
+| Distorted | **50%** | 0% | 0% |
 | Calibration Traps | **60%** | 0% | 0% |
 
 Both Llama and DeepSeek score 0% on distorted facts, calibration traps, and linguistic puzzles — a hard metacognitive floor that Gemini breaks through.
