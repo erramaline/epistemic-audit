@@ -1,3 +1,4 @@
+**Key finding:** Chain-of-thought reasoning (DeepSeek R1) makes models MORE sycophantic — abandoning 80% of correct answers under pressure vs Gemini's 30%. Reasoning harder ≠ knowing yourself better.
 # Epistemic Audit
 
 **Kaggle Community Benchmark — Metacognition Track**
