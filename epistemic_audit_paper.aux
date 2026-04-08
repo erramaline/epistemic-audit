@@ -1,0 +1,152 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{hendrycks2020measuring}
+\citation{cobbe2021training}
+\citation{rein2023gpqa}
+\citation{flavell1979metacognition,brown1978knowing}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The \textsc  {Epistemic Audit}{} pipeline: generated questions feed Phase~1 calibration, Phase~2 blind self-audit, and Phase~3 belief revision, with the three phase metrics aggregated into the canonical composite score.}}{5}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:ea-architecture}{{1}{5}{The \EA {} pipeline: generated questions feed Phase~1 calibration, Phase~2 blind self-audit, and Phase~3 belief revision, with the three phase metrics aggregated into the canonical composite score}{figure.caption.1}{}}
+\newlabel{fig:ea-architecture@cref}{{[figure][1][]1}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{5}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{5}{Introduction}{section.1}{}}
+\newlabel{sec:intro@cref}{{[section][1][]1}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Summary of Contributions}{5}{subsection.1.1}\protected@file@percent }
+\citation{flavell1979metacognition}
+\citation{brown1978knowing}
+\citation{guo2017calibration}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Theoretical Foundations}{6}{section.2}\protected@file@percent }
+\newlabel{sec:theory}{{2}{6}{Theoretical Foundations}{section.2}{}}
+\newlabel{sec:theory@cref}{{[section][2][]2}{[1][6][]6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Metacognition in Cognitive Science}{6}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Calibration and the Brier Score}{7}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:brier}{{1}{7}{Calibration and the Brier Score}{equation.1}{}}
+\newlabel{eq:brier@cref}{{[equation][1][]1}{[1][7][]7}{}{}{}}
+\newlabel{eq:ece}{{2}{7}{Calibration and the Brier Score}{equation.2}{}}
+\newlabel{eq:ece@cref}{{[equation][2][]2}{[1][7][]7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Self-Auditing and AUROC}{7}{subsection.2.3}\protected@file@percent }
+\newlabel{eq:auroc}{{3}{7}{Self-Auditing and AUROC}{equation.3}{}}
+\newlabel{eq:auroc@cref}{{[equation][3][]3}{[1][7][]7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Sycophancy as Inverse Metacognition}{8}{subsection.2.4}\protected@file@percent }
+\newlabel{eq:si}{{4}{8}{Sycophancy as Inverse Metacognition}{equation.4}{}}
+\newlabel{eq:si@cref}{{[equation][4][]4}{[1][8][]8}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Benchmark Architecture}{8}{section.3}\protected@file@percent }
+\newlabel{sec:benchmark}{{3}{8}{Benchmark Architecture}{section.3}{}}
+\newlabel{sec:benchmark@cref}{{[section][3][]3}{[1][8][]8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Procedural Question Generation}{8}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Category definitions, generation mechanisms, and target failure modes.}}{9}{table.caption.2}\protected@file@percent }
+\newlabel{tab:categories}{{1}{9}{Category definitions, generation mechanisms, and target failure modes}{table.caption.2}{}}
+\newlabel{tab:categories@cref}{{[table][1][]1}{[1][8][]9}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Phase 1: Knowledge Baseline and Calibration}{9}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Phase~2 audit design. The model's Phase~1 outputs are mixed with planted items, then re-rated without authorship cues. A control condition replaces template-generated planted items with model-generated planted items to quantify stylistic confounding.}}{10}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:phase2-audit}{{2}{10}{Phase~2 audit design. The model's Phase~1 outputs are mixed with planted items, then re-rated without authorship cues. A control condition replaces template-generated planted items with model-generated planted items to quantify stylistic confounding}{figure.caption.3}{}}
+\newlabel{fig:phase2-audit@cref}{{[figure][2][]2}{[1][10][]10}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Phase 2: Blind Self-Audit and Discriminative Signal}{10}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stylistic confound control.}{10}{figure.caption.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Phase 3: Adversarial Belief Revision}{11}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Counterargument quality (\textsc  {Epistemic Audit}{} improvement).}{11}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Metrics.}{11}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Temperature sensitivity.}{11}{subsection.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Phase~3 belief-revision design. Correct answers are challenged with invalid authority-like pressure to measure Hold Rate and Sycophancy Index, while incorrect answers receive reasoning-rich corrections to measure Revise Rate. The temperature sweep checks whether sycophancy resistance is stable across decoding settings.}}{12}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:phase3-revision}{{3}{12}{Phase~3 belief-revision design. Correct answers are challenged with invalid authority-like pressure to measure Hold Rate and Sycophancy Index, while incorrect answers receive reasoning-rich corrections to measure Revise Rate. The temperature sweep checks whether sycophancy resistance is stable across decoding settings}{figure.caption.4}{}}
+\newlabel{fig:phase3-revision@cref}{{[figure][3][]3}{[1][11][]12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Composite Score and Formula Variants}{12}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:composite}{{3.5}{12}{Composite Score and Formula Variants}{subsection.3.5}{}}
+\newlabel{sec:composite@cref}{{[subsection][5][3]3.5}{[1][11][]12}{}{}{}}
+\newlabel{eq:composite_canonical}{{5}{12}{Composite Score and Formula Variants}{equation.5}{}}
+\newlabel{eq:composite_canonical@cref}{{[equation][5][]5}{[1][11][]12}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Paper formula (deprecated).}{12}{equation.5}\protected@file@percent }
+\newlabel{eq:composite_paper}{{6}{12}{Paper formula (deprecated)}{equation.6}{}}
+\newlabel{eq:composite_paper@cref}{{[equation][6][]6}{[1][12][]12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Domain-Weighted Composite Variants}{13}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:domainweights}{{3.6}{13}{Domain-Weighted Composite Variants}{subsection.3.6}{}}
+\newlabel{sec:domainweights@cref}{{[subsection][6][3]3.6}{[1][13][]13}{}{}{}}
+\newlabel{eq:composite_weighted}{{7}{13}{Domain-Weighted Composite Variants}{equation.7}{}}
+\newlabel{eq:composite_weighted@cref}{{[equation][7][]7}{[1][13][]13}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Domain-specific composite weight presets.}}{13}{table.caption.5}\protected@file@percent }
+\newlabel{tab:domainweights}{{2}{13}{Domain-specific composite weight presets}{table.caption.5}{}}
+\newlabel{tab:domainweights@cref}{{[table][2][]2}{[1][13][]13}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Methodology Fixes}{13}{section.4}\protected@file@percent }
+\newlabel{sec:fixes}{{4}{13}{Methodology Fixes}{section.4}{}}
+\newlabel{sec:fixes@cref}{{[section][4][]4}{[1][13][]13}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Fix 1: Arithmetic Answer Parser}{13}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Failure mode.}{13}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Consequence.}{14}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Fix.}{14}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Fix 2: Counterargument Quality}{14}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Failure mode.}{14}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Consequence.}{14}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Fix.}{14}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Fix 3: Abstention Signal Scoping}{14}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Failure mode.}{14}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Consequence.}{14}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Fix.}{15}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Statistical Infrastructure}{15}{section.5}\protected@file@percent }
+\newlabel{sec:stats}{{5}{15}{Statistical Infrastructure}{section.5}{}}
+\newlabel{sec:stats@cref}{{[section][5][]5}{[1][15][]15}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Bootstrap Confidence Intervals}{15}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Minimum N recommendation.}{15}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}ECE Bin-Count Sensitivity}{15}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experimental Setup}{15}{section.6}\protected@file@percent }
+\newlabel{sec:setup}{{6}{15}{Experimental Setup}{section.6}{}}
+\newlabel{sec:setup@cref}{{[section][6][]6}{[1][15][]15}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Model.}{15}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Evaluation conditions.}{15}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{N selection.}{15}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Results}{16}{section.7}\protected@file@percent }
+\newlabel{sec:results}{{7}{16}{Results}{section.7}{}}
+\newlabel{sec:results@cref}{{[section][7][]7}{[1][15][]16}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Overall Performance}{16}{subsection.7.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Primary metrics for Gemini~2.5 Flash (N=150, seed=42).}}{16}{table.caption.6}\protected@file@percent }
+\newlabel{tab:main}{{3}{16}{Primary metrics for Gemini~2.5 Flash (N=150, seed=42)}{table.caption.6}{}}
+\newlabel{tab:main@cref}{{[table][3][]3}{[1][15][]16}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Per-Category Diagnostic Profile}{17}{subsection.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Per-category accuracy and calibration. All $N=25$ per category.}}{17}{table.caption.7}\protected@file@percent }
+\newlabel{tab:percategory}{{4}{17}{Per-category accuracy and calibration. All $N=25$ per category}{table.caption.7}{}}
+\newlabel{tab:percategory@cref}{{[table][4][]4}{[1][16][]17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}The Formula Delta}{17}{subsection.7.3}\protected@file@percent }
+\newlabel{sec:formuladelta}{{7.3}{17}{The Formula Delta}{subsection.7.3}{}}
+\newlabel{sec:formuladelta@cref}{{[subsection][3][7]7.3}{[1][17][]17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Phase 2: Self-Audit Quality and Stylistic Confound}{17}{subsection.7.4}\protected@file@percent }
+\newlabel{sec:phase2control}{{7.4}{17}{Phase 2: Self-Audit Quality and Stylistic Confound}{subsection.7.4}{}}
+\newlabel{sec:phase2control@cref}{{[subsection][4][7]7.4}{[1][17][]17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Phase 3: Sycophancy Resistance and Belief Revision}{18}{subsection.7.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}Temperature Sensitivity Analysis}{18}{subsection.7.6}\protected@file@percent }
+\newlabel{sec:tempsweep}{{7.6}{18}{Temperature Sensitivity Analysis}{subsection.7.6}{}}
+\newlabel{sec:tempsweep@cref}{{[subsection][6][7]7.6}{[1][18][]18}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Phase~3 metrics across temperature values (N=25 per category, $n=20$ challenges per temperature).}}{18}{table.caption.8}\protected@file@percent }
+\newlabel{tab:tempsweep}{{5}{18}{Phase~3 metrics across temperature values (N=25 per category, $n=20$ challenges per temperature)}{table.caption.8}{}}
+\newlabel{tab:tempsweep@cref}{{[table][5][]5}{[1][18][]18}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}Domain-Weighted Composite Scores}{19}{subsection.7.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Domain-weighted composite scores using presets from \Cref  {tab:domainweights}.}}{19}{table.caption.9}\protected@file@percent }
+\newlabel{tab:domainscores}{{6}{19}{Domain-weighted composite scores using presets from \Cref {tab:domainweights}}{table.caption.9}{}}
+\newlabel{tab:domainscores@cref}{{[table][6][]6}{[1][19][]19}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion}{19}{section.8}\protected@file@percent }
+\newlabel{sec:discussion}{{8}{19}{Discussion}{section.8}{}}
+\newlabel{sec:discussion@cref}{{[section][8][]8}{[1][19][]19}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Distorted Facts as the Metacognitive Frontier}{19}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Sycophancy Resistance vs. Belief Revision: A Dissociation}{20}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}The Calibration-AUROC Relationship}{20}{subsection.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Implications for Formula Standardisation}{20}{subsection.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Limitations}{21}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Single-model evaluation.}{21}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Temperature sensitivity.}{21}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Distorted-fact pool size.}{21}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Human baseline.}{21}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.6}Future Directions}{22}{subsection.8.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Conclusion}{22}{section.9}\protected@file@percent }
+\newlabel{sec:conclusion}{{9}{22}{Conclusion}{section.9}{}}
+\newlabel{sec:conclusion@cref}{{[section][9][]9}{[1][22][]22}{}{}{}}
+\bibstyle{plainnat}
+\bibcite{brown1978knowing}{{1}{1978}{{Brown}}{{}}}
+\bibcite{cobbe2021training}{{2}{2021}{{Cobbe et al.}}{{}}}
+\bibcite{flavell1979metacognition}{{3}{1979}{{Flavell}}{{}}}
+\bibcite{guo2017calibration}{{4}{2017}{{Guo et al.}}{{}}}
+\bibcite{hendrycks2020measuring}{{5}{2020}{{Hendrycks et al.}}{{}}}
+\bibcite{kadavath2022language}{{6}{2022}{{Kadavath et al.}}{{}}}
+\bibcite{kahneman2011thinking}{{7}{2011}{{Kahneman}}{{}}}
+\bibcite{perez2022red}{{8}{2022}{{Perez et al.}}{{}}}
+\bibcite{rein2023gpqa}{{9}{2023}{{Rein et al.}}{{}}}
+\gdef \@abspage@last{23}

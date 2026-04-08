@@ -1,0 +1,9 @@
+# pyproject.toml
+[project]
+name = "epistemic-audit"
+version = "1.0.0"
+description = "Kaggle Community Benchmark for Metacognition — Can AI models audit their own knowledge?"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

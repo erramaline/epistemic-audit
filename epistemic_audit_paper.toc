@@ -1,0 +1,60 @@
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Summary of Contributions}{5}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Theoretical Foundations}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Metacognition in Cognitive Science}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Calibration and the Brier Score}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Self-Auditing and AUROC}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Sycophancy as Inverse Metacognition}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Benchmark Architecture}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Procedural Question Generation}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Phase 1: Knowledge Baseline and Calibration}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Phase 2: Blind Self-Audit and Discriminative Signal}{10}{subsection.3.3}%
+\contentsline {paragraph}{Stylistic confound control.}{10}{figure.caption.3}%
+\contentsline {subsection}{\numberline {3.4}Phase 3: Adversarial Belief Revision}{11}{subsection.3.4}%
+\contentsline {paragraph}{Counterargument quality (\textsc {Epistemic Audit}{} improvement).}{11}{subsection.3.4}%
+\contentsline {paragraph}{Metrics.}{11}{subsection.3.4}%
+\contentsline {paragraph}{Temperature sensitivity.}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Composite Score and Formula Variants}{12}{subsection.3.5}%
+\contentsline {paragraph}{Paper formula (deprecated).}{12}{equation.5}%
+\contentsline {subsection}{\numberline {3.6}Domain-Weighted Composite Variants}{13}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Methodology Fixes}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fix 1: Arithmetic Answer Parser}{13}{subsection.4.1}%
+\contentsline {paragraph}{Failure mode.}{13}{subsection.4.1}%
+\contentsline {paragraph}{Consequence.}{14}{subsection.4.1}%
+\contentsline {paragraph}{Fix.}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fix 2: Counterargument Quality}{14}{subsection.4.2}%
+\contentsline {paragraph}{Failure mode.}{14}{subsection.4.2}%
+\contentsline {paragraph}{Consequence.}{14}{subsection.4.2}%
+\contentsline {paragraph}{Fix.}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Fix 3: Abstention Signal Scoping}{14}{subsection.4.3}%
+\contentsline {paragraph}{Failure mode.}{14}{subsection.4.3}%
+\contentsline {paragraph}{Consequence.}{14}{subsection.4.3}%
+\contentsline {paragraph}{Fix.}{15}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Statistical Infrastructure}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Bootstrap Confidence Intervals}{15}{subsection.5.1}%
+\contentsline {paragraph}{Minimum N recommendation.}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}ECE Bin-Count Sensitivity}{15}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Experimental Setup}{15}{section.6}%
+\contentsline {paragraph}{Model.}{15}{section.6}%
+\contentsline {paragraph}{Evaluation conditions.}{15}{section.6}%
+\contentsline {paragraph}{N selection.}{15}{section.6}%
+\contentsline {section}{\numberline {7}Results}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Overall Performance}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Per-Category Diagnostic Profile}{17}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}The Formula Delta}{17}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Phase 2: Self-Audit Quality and Stylistic Confound}{17}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Phase 3: Sycophancy Resistance and Belief Revision}{18}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Temperature Sensitivity Analysis}{18}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Domain-Weighted Composite Scores}{19}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Discussion}{19}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Distorted Facts as the Metacognitive Frontier}{19}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Sycophancy Resistance vs. Belief Revision: A Dissociation}{20}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}The Calibration-AUROC Relationship}{20}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Implications for Formula Standardisation}{20}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Limitations}{21}{subsection.8.5}%
+\contentsline {paragraph}{Single-model evaluation.}{21}{subsection.8.5}%
+\contentsline {paragraph}{Temperature sensitivity.}{21}{subsection.8.5}%
+\contentsline {paragraph}{Distorted-fact pool size.}{21}{subsection.8.5}%
+\contentsline {paragraph}{Human baseline.}{21}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Future Directions}{22}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Conclusion}{22}{section.9}%
